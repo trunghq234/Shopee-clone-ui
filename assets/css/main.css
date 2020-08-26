@@ -1296,11 +1296,32 @@ i.home-product-item__like-fill {
     line-height: 1.6rem;
 }
 
-.footer__nation-text {
-
-}
-
 .footer__nation-item {
     border-right: 1px solid var(--border-color);
     padding: 0 8px;
+}
+
+/* FOOTER POLICY */
+.footer__policy {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer__policy-text {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    padding: 0 16px;
+    display: block;
+    border-left: 1px solid #DFDFDF;
+}
+
+.footer__policy-text:first-child {
+    border: none;
+}
+
+.footer__policy-link {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.54);
 }
