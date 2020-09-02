@@ -123,6 +123,10 @@
 
                 <!-- Header with search -->
                 <div class="header-with-search">
+                    <label for="mobile-search-checkbox" class="header__mobile-search">
+                        <i class="header__mobile-search-icon fas fa-search"></i>
+                    </label>
+
                     <div class="header__logo hide-on-tablet">
                         <a href="/" class="header__logo-link">
                             <svg class="header__logo-img" viewBox="0 0 192 65">
@@ -132,6 +136,8 @@
                             </svg>
                         </a>
                     </div>
+
+                    <input type="checkbox" hidden id="mobile-search-checkbox" class="header__search-checkbox">
 
                     <div class="header__search">
                         <div class="header__search-input-wrap">
@@ -325,8 +331,8 @@
 
         <div class="container">
             <div class="grid wide">
-                <div class="grid__row app__content">
-                    <div class="grid__column-2">
+                <div class="row sm-gutter app__content">
+                    <div class="col l-2 m-0 c-0">
                         <nav class="category">
                             <h3 class="category__heading">
                                 <i class="category__heading-icon fas fa-list"></i>
@@ -347,7 +353,7 @@
                         </nav>
                     </div>
     
-                    <div class="grid__column-10">
+                    <div class="col l-10 m-12 c-12">
                         <div class="home-filter hide-on-mobile-tablet">
                             <span class="home-filter__label">Sắp xếp theo</span>
                             <button class="home-filter__btn btn">Phổ biến</button>
@@ -384,10 +390,33 @@
                             </div>
                         </div>
 
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Chống nắng hiệu quả</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Tẩy trang và làm sạch</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Chăm sóc chuyên biệt</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Chăm sóc da dầu mụn</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Xịt khoáng</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link">Serum</a>
+                                </li>
+                            </ul>
+                        </nav>
+
                         <div class="home-product">
-                            <div class="grid__row">
+                            <div class="row sm-gutter">
                                 <!-- Product item -->
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -423,7 +452,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -459,7 +488,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -495,7 +524,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -531,7 +560,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -567,7 +596,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -603,7 +632,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -639,7 +668,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -675,7 +704,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -711,7 +740,7 @@
                                         </div>
                                     </a>
                                 </div>
-                                <div class="grid__column-2-4">
+                                <div class="col l-2-4 m-4 c-6">
                                     <a href="" class="home-product-item">
                                         <div class="home-product-item__img" style="background-image:url(https://cf.shopee.vn/file/119033af4359a0be7765ebb18e5fee30_tn);"></div>
                                         <h4 class="home-product-item__name">Bộ sản phẩm chống nắng và giảm mụn toàn diện La Roche Possay và giảm mụn toàn diện La Roche Posay</h4>
@@ -792,8 +821,8 @@
 
         <footer class="footer">
             <div class="grid wide">
-                <div class="grid__row">
-                    <div class="grid__column-2-4">
+                <div class="row footer-content">
+                    <div class="col l-2-4 m-4 c-12 footer-mobile">
                         <h3 class="footer__heading">CHĂM SÓC KHÁCH HÀNG</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
@@ -813,7 +842,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-4 c-12 footer-mobile">
                         <h3 class="footer__heading">VỀ SHOPEE</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
@@ -833,7 +862,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-4 c-12 footer-mobile">
                         <h3 class="footer__heading">THANH TOÁN</h3>
                         <ul class="footer-list">
                             <div class="footer-list__wrap">
@@ -866,7 +895,7 @@
                             </div>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-4 c-12 footer-mobile">
                         <h3 class="footer__heading">THEO DÕI CHÚNG TÔI TRÊN</h3>
                         <ul class="footer-list">
                             <li class="footer-item">
@@ -889,7 +918,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="grid__column-2-4">
+                    <div class="col l-2-4 m-8 c-12 footer-mobile">
                         <h3 class="footer__heading">TẢI ỨNG DỤNG SHOPEE NGAY</h3>
                         <div class="footer__download">
                             <img src="/assets/img/qr_code.png" alt="QR code download" class="footer__download-qr">
@@ -906,7 +935,7 @@
                 </div>
             </div>
 
-            <div class="grid__row">
+            <div class="row">
                 <div class="footer__copyright">
                     <div class="footer__copyright-wrap-text">
                         <span class="footer__copyright-text">© 2020 Shopee. Tất cả các quyền được bảo lưu.</span>
@@ -926,7 +955,7 @@
 
             <div class="footer__bottom">
                 <div class="grid wide">
-                    <div class="grid__row">
+                    <div class="row">
                         <div class="footer__policy">
                             <div class="footer__policy-text">
                                 <a href="" class="footer__policy-link">CHÍNH SÁCH BẢO MẬT</a>
@@ -943,7 +972,8 @@
                         </div>
                     </div>
                     
-                    <p class="footer__text">Địa chỉ: Tầng 28, Tòa nhà trung tâm Lotte Hà Nội, 54 Liễu Giai, phường Cống Vị, Quận Ba Đình, Hà Nội. Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn</p>
+                    <p class="footer__text">Địa chỉ: Tầng 28, Tòa nhà trung tâm Lotte Hà Nội, 54 Liễu Giai, phường Cống Vị, Quận Ba Đình, Hà Nội.</p>
+                    <p class="footer__text">Tổng đài hỗ trợ: 19001221 - Email: cskh@hotro.shopee.vn</p>
                     <p class="footer__text">Mã số doanh nghiệp: 0106773786 do Sở Kế hoạch & Đầu tư TP Hà Nội cấp lần đầu ngày 10/02/2015</p>
                     <p class="footer__text">©2020 - Bản quyền thuộc về Công ty TNHH Deka</p>
                     
