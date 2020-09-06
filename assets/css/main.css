@@ -1373,10 +1373,11 @@ i.home-product-item__like-fill {
 }
 
 .footer__download-app-img {
-    height: 20px;
+    height: 28px;
 }
 
 .footer__download-app-link {
+    height: 28px;
     color: transparent;
     text-decoration: none;
     display: block;
